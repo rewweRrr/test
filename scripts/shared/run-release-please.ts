@@ -1,6 +1,6 @@
 import {execute} from './execute';
 
-export function runStandardVersion(
+export function runReleasePlease(
     version: string,
     enabledDryRun: boolean,
 ): void {
