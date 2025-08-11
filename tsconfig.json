@@ -19,5 +19,13 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
+  "ts-node": {
+    "files": true,
+    "transpileOnly": true,
+    "compilerOptions": {
+      "types": ["node"],
+      "module": "commonjs"
+    }
+  },
   "include": ["scripts"]
 }
